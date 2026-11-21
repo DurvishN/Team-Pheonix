@@ -27,3 +27,33 @@ Monthly surplus = expected income + extra income − expenses. Positive surplus 
 Use `npm run lint` and `npm run build`. Vercel serves the Vite build and `api/workspace.js`. The configured Supabase and Google-auth environment variables are required. The Supabase service-role credential belongs only in the server environment.
 
 All sample figures are illustrative and do not constitute financial advice.
+
+
+## Technology Stack
+
+- React 19 – Frontend development
+- TypeScript – Type safety
+- Vite – Development and build tool
+- Tailwind CSS – Styling
+- Supabase – Database and authentication
+- Framer Motion – Animations
+- React Router – Page navigation
+- Lucide React – Icons
+
+## Running the Project
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Run the production build:
+
+npm run build
+
+Check code quality:
+
+npm run lint
